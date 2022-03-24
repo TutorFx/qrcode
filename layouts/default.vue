@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <loader />
     <v-main>
       <Nuxt />
     </v-main>
