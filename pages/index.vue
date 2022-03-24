@@ -118,7 +118,7 @@ export default {
     max-width: 100%;
   }
   @media #{map-get($display-breakpoints, 'lg-and-up')} {
-    max-width: 1200px;
+    max-width: 1200px!important;
   }
 }
 @media #{map-get($display-breakpoints, 'xs-only')} {
